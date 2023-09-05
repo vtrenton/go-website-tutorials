@@ -1,10 +1,6 @@
 package main
 
 // import my greetings module
-// since I have this stored on github - go mod tidy will pull it from there
-// else I could use a replacement function:
-// replace example.com/greetings => ../greetings
-// interesting since my reference is to what is on github - i need to push often.
 import (
 	"fmt"
 	"log"
